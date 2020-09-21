@@ -27,7 +27,7 @@ function changeteam1() {
 }
 
 function changeteam2() {
-  var team = document.getElementById("team1").value;
+  var team = document.getElementById("team2").value;
   var teamnum = teamdict[team];
   var players = teamlist[teamnum]
   document.getElementById("b1").src = "https://www.twitch.tv/embed/"+players[0]+"/chat?parent=d-matz.github.io";
