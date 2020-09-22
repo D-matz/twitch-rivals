@@ -30,7 +30,7 @@ function changeteam1() {
     names = names + players[i]+ ", ";
   }
   names = names + players[4]
-  document.getElementById("text1").src = names;
+  document.getElementById("text1").innerHTML = names;
 }
 
 function changeteam2() {
@@ -48,5 +48,5 @@ function changeteam2() {
     names = names + players[i]+ ", ";
   }
   names = names + players[4]
-  document.getElementById("text2").src = names;
+  document.getElementById("text2").innerHTML = names;
 }
