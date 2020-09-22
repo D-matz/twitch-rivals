@@ -24,6 +24,13 @@ function changeteam1() {
   document.getElementById("a3").src = "https://www.twitch.tv/embed/"+players[2]+"/chat?parent=d-matz.github.io";
   document.getElementById("a4").src = "https://www.twitch.tv/embed/"+players[3]+"/chat?parent=d-matz.github.io";
   document.getElementById("a5").src = "https://www.twitch.tv/embed/"+players[4]+"/chat?parent=d-matz.github.io";
+  var names = "";
+  for(var i=0;i<4;i++)
+  {
+    names = names + players[i]+ ", ";
+  }
+  names = names + players[4]
+  document.getElementById("text1").src = names;
 }
 
 function changeteam2() {
@@ -35,4 +42,11 @@ function changeteam2() {
   document.getElementById("b3").src = "https://www.twitch.tv/embed/"+players[2]+"/chat?parent=d-matz.github.io";
   document.getElementById("b4").src = "https://www.twitch.tv/embed/"+players[3]+"/chat?parent=d-matz.github.io";
   document.getElementById("b5").src = "https://www.twitch.tv/embed/"+players[4]+"/chat?parent=d-matz.github.io";
+  var names = "";
+  for(var i=0;i<4;i++)
+  {
+    names = names + players[i]+ ", ";
+  }
+  names = names + players[4]
+  document.getElementById("text2").src = names;
 }
