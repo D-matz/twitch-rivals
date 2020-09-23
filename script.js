@@ -31,6 +31,7 @@ function changeteam1() {
   }
   names = names + players[4]
   document.getElementById("text1").innerHTML = names;
+settitle();
 }
 
 function changeteam2() {
@@ -49,4 +50,12 @@ function changeteam2() {
   }
   names = names + players[4]
   document.getElementById("text2").innerHTML = names;
+settitle();
+}
+
+
+function settitle(){ 
+  var team1 = document.getElementById("team1").value;
+  var team2 = document.getElementById("team2").value;
+  document.title = team1 + " vs " + team2;
 }
